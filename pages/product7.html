@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index, follow" />
+		<meta
+			name="description"
+			content="Frontend store website of t-shirts related to different programming technologies, currently offering them in different sizes and styles."
+		/>
+		<meta
+			name="keywords"
+			content="t-shirt, javascript, html, css, bulma, node js, frontend store, programming store, drupal, typescript, github, programmer t-shirt"
+		/>
+		<meta name="author" content="Oscar Arias" />
+		<title>Frontend Store</title>
+
+		<link
+			rel="icon"
+			type="image/png"
+			href="../img/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link rel="icon" type="image/svg+xml" href="../img/favicon.svg" />
+		<link rel="shortcut icon" href="../img/favicon.ico" />
+
+		<!-- Normalize CSS Reset -->
+		<link rel="preload" href="../css/normalize.css" as="style" />
+		<link rel="stylesheet" href="../css/normalize.css" />
+
+		<!-- Google Website Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS Styles -->
+		<link rel="preload" href="../css/styles.css" as="style" />
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<!-- Header Section Starts -->
+		<header class="header flex-row-center">
+			<a href="../index.html"
+				><img
+					class="header__logo"
+					src="../img/logo.png"
+					alt="Logo Of Frontend Store Website."
+					width="258"
+					height="97"
+					loading="lazy"
+			/></a>
+		</header>
+		<!-- Header Section Ends -->
+
+		<!-- Navigation Section Starts -->
+		<div class="navigation-bg bg-purple">
+			<input
+				class="fas fa-bars pointer"
+				type="checkbox"
+				name="nav-menu"
+				id="nav-menu"
+			/>
+
+			<nav class="navigation container bg-purple">
+				<a class="navigation__link text-center" href="../index.html">Home</a>
+				<a class="navigation__link text-center" href="./store.html">Store</a>
+				<a class="navigation__link text-center" href="./about-us.html"
+					>About Us</a
+				>
+				<a class="navigation__link text-center" href="./contact.html"
+					>Contact Us</a
+				>
+			</nav>
+		</div>
+		<!-- Navigation Section Ends -->
+
+		<!-- Main Tag Starts -->
+		<main class="container">
+			<h1 class="main-title">HTML5 T-Shirt</h1>
+
+			<div class="shirt">
+				<!-- Shirt Image Starts -->
+				<div class="product__picture product__picture--shirt w-full">
+					<img
+						class="shirt__image w-full h-full object-img"
+						src="../img/shirt7.jpg"
+						alt="HTML5 T-Shirt"
+						loading="lazy"
+						width="354"
+						height="341"
+					/>
+				</div>
+				<!-- Shirt Image Ends -->
+
+				<!-- Shirt Information Starts -->
+				<div class="shirt__info">
+					<h2 class="shirt__info-title">
+						HTML5 Unisex Short Sleeve Black T-Shirt
+					</h2>
+
+					<p class="shirt__info-author">By <span>Frontend Store</span></p>
+
+					<!-- Price Information Starts -->
+					<div class="price-info flex-row-center">
+						<!-- Product Price Starts -->
+						<div class="product-price flex-row-center">
+							<p class="product-price__currency">$</p>
+							<p class="product-price__amount">25</p>
+						</div>
+						<!-- Product Price Ends -->
+
+						<div class="product-discount">
+							<p class="product-discount__text">
+								<span>Save 25%</span> <br />
+								Inclusive deal of the day
+							</p>
+						</div>
+					</div>
+					<!-- Price Information Ends -->
+
+					<p class="shirt__info-content">
+						Modern unisex t-shirt fits arms and shoulders with enough room
+						throughout the body, made with high quality materials, durable
+						design. Anti-shrinkage durability, with non-stretch collar.
+					</p>
+
+					<!-- Form Tag Starts -->
+					<form class="product-form" action="#" method="get">
+						<fieldset class="grid-fieldset">
+							<div class="container-fields flex-row-center">
+								<select class="product-form__field" name="size" id="size">
+									<option disabled selected>-- Size --</option>
+									<option value="S">S</option>
+									<option value="M">M</option>
+									<option value="L">L</option>
+									<option value="XL">XL</option>
+								</select>
+
+								<input
+									class="product-form__field"
+									type="number"
+									name="quantity"
+									id="quantity"
+									min="1"
+									placeholder="Quantity"
+									required
+								/>
+							</div>
+
+							<input
+								class="product-form__submit pointer"
+								type="submit"
+								value="Add To Cart"
+							/>
+						</fieldset>
+					</form>
+					<!-- Form Tag Ends -->
+				</div>
+				<!-- Shirt Information Ends -->
+			</div>
+		</main>
+		<!-- Main Tag Ends -->
+
+		<!-- Footer Tag Starts -->
+		<footer class="footer bg-purple">
+			<!-- Footer Container Starts -->
+			<div class="footer__container">
+				<!-- Footer Icons Starts -->
+				<div class="footer__icons">
+					<!-- Facebook Lordicon Starts -->
+					<a href="#"
+						><lord-icon
+							class="footer__icon"
+							src="https://cdn.lordicon.com/ynvwvpsx.json"
+							trigger="hover"
+						>
+						</lord-icon
+					></a>
+					<!-- Facebook Lordicon Ends -->
+
+					<!-- Instagram Lordicon Starts -->
+					<a href="#"
+						><lord-icon
+							class="footer__icon"
+							src="https://cdn.lordicon.com/wgtaryar.json"
+							trigger="hover"
+							colors="primary:#4bb3fd,secondary:#f28ba8,tertiary:#ffc738,quaternary:#9ce5f4"
+						>
+						</lord-icon
+					></a>
+					<!-- Instagram Lordicon Ends -->
+
+					<!-- Whatsapp Lordicon Starts -->
+					<a href="#"
+						><lord-icon
+							class="footer__icon"
+							src="https://cdn.lordicon.com/czyzlqzd.json"
+							trigger="hover"
+							colors="primary:#fff,secondary:#2ca58d"
+						>
+						</lord-icon
+					></a>
+					<!-- Whatsapp Lordicon Ends -->
+
+					<!-- Youtube Lordicon Starts -->
+					<a href="#"
+						><lord-icon
+							class="footer__icon"
+							src="https://cdn.lordicon.com/ojifxrin.json"
+							trigger="hover"
+							colors="primary:#f24c00,secondary:#ffffff,tertiary:#3a3347"
+						>
+						</lord-icon
+					></a>
+					<!-- Youtube Lordicon Ends -->
+
+					<!-- X Lordicon Starts -->
+					<a href="#"
+						><lord-icon
+							class="footer__icon"
+							src="https://cdn.lordicon.com/bjdrneur.json"
+							trigger="hover"
+							colors="primary:#3a3347,secondary:#ffffff"
+						>
+						</lord-icon
+					></a>
+					<!-- X Lordicon Ends -->
+				</div>
+				<!-- Footer Icons Ends -->
+
+				<p class="footer__paragraph text-center">
+					Copyright &copy; Crafted by
+					<a
+						href="https://wa.me/+50576824820?text=Cont%C3%A1ctame%20para%20m%C3%A1s%20informaci%C3%B3n"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Frontend Store</a
+					>. All Rights Reserved 2023.
+				</p>
+			</div>
+			<!-- Footer Container Ends -->
+		</footer>
+		<!-- Footer Tag Ends -->
+
+		<!-- Font Awesome Icons Script Starts -->
+		<script
+			src="https://kit.fontawesome.com/9e24ae0db6.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<!-- Font Awesome Icons Script Ends -->
+
+		<!-- Lordicon Icons Script Starts -->
+		<script src="https://cdn.lordicon.com/lordicon.js" defer></script>
+		<!-- Lordicon Icons Script Ends -->
+	</body>
+</html>
